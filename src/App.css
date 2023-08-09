@@ -1,0 +1,66 @@
+.container {
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 500px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+/* Estilo personalizado para el título "Lista de Compras" */
+.custom-title {
+  font-family: "bebas neue", sans-serif; /* Cambia la fuente a Arial o cualquier otra fuente que desees */
+  font-size: 24px; /* Cambia el tamaño de la fuente según tus preferencias */
+  color: #007bff; /* Cambia el color del texto */
+  margin-bottom: 1rem;
+}
+
+
+
+.app {
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 400px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.add-item {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.add-item input {
+  flex-grow: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.add-item button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+}
+
